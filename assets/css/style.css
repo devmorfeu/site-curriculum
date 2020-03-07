@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    padding: 0px;
+    
+}
+
+
+.menuLateral{
+    height: 100%;
+    padding: 0px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);    
+}
+
+.lateral{
+    padding: 0px;
+}
+
+.imagemItens{
+    width: 20px;
+    height: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.bannerMenu{
+    width: 100%;
+    height: 215px;
+    opacity: 0.7;
+}
+
+.banner{
+    width: 100%; 
+    height: 500px;   
+    opacity: 0.7;
+    padding: 10px;
+}
+
+.fotoPerfilUm{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 390px;
+    left: 30px;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.fotoPerfilDois{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 20px;
+    filter: grayscale(100%);
+}
+
+.nomeProfissao{
+    position: absolute;
+    z-index: 2;
+    top: 125px;
+    left: 10px;
+    font-size: 12pt;
+    color: rgb(205, 205, 206)
+}
+
+.social li{
+   display: inline;
+}
+
+.social{
+    z-index: 2;
+    position: absolute;
+    top: 180px;
+
+}
+
+.iconesRedesSociais{
+    width: 27px;
+    height: 27px;
+    margin-left: 20px;
+    
+}
+
+.marginHr{
+    margin-bottom: 50px;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.sub{
+    color: #95a5a6;
+    font-size: 20pt;
+    margin-bottom: 40px;
+}
+
+.card{
+    padding: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);  
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  padding: 0;
+ 
+}
+
+.skills {
+  text-align: right;
+  padding: 5px;
+  color: white;
+ 
+}
+
+
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 70%; background-color: #f44336;}
+.js {width: 80%; background-color: #4CAF50;}
+.java {width: 85%; background-color: #4CAF50;}
+.sqlServer {width: 75%; background-color: #f1c40f;}
+.test {width: 85%; background-color: #4CAF50;}
+.react {width: 80%; background-color: #4CAF50;}
+
+
+.comunicacao {width: 90%; background-color: #4CAF50;}
+.proatividade {width: 85%; background-color: #4CAF50;}
+.lideranca {width: 80%; background-color: #f1c40f;}
+.equipe {width: 95%; background-color: #4CAF50;}
+.criatividade {width: 90%; background-color: #4CAF50;}
+.resiliencia {width: 85%; background-color: #4CAF50;}
+.empatia {width: 90%; background-color: #4CAF50;}
+
+h5{
+    padding-top: 15px;
+ 
+}
+
+.collection-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+ul:not(.browser-default) > li {
+    list-style-type: none;
+}
