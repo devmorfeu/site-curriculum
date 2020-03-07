@@ -8,9 +8,31 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+
+
 .container-fluid{
     padding: 0px;
-    
 }
 
 
@@ -136,7 +158,7 @@ nav ul{
 
 
 .html {width: 90%; background-color: #4CAF50;}
-.css {width: 70%; background-color: #f44336;}
+.css {width: 70%; background-color: #f1c40f;}
 .js {width: 80%; background-color: #4CAF50;}
 .java {width: 85%; background-color: #4CAF50;}
 .sqlServer {width: 75%; background-color: #f1c40f;}
