@@ -1,2 +1,2 @@
 # site-curriculum
-Site curriculum que contem minhas infos
+https://cv-gabriel.herokuapp.com/
